@@ -15,3 +15,6 @@ Currently, two official plugins are available:
 
 ```npx tailwindcss init -p```
 
+### installation du react-router-dom pour faire du routage
+
+```npm i reac-router-dom```
