@@ -9,24 +9,24 @@ import NotFound from "@/_utils/NotFound.jsx";
 function App() {
 
     return (
-        <div className="App">
-            <BrowserRouter>
-                <Routes>
-                    <Route index element={<Home/>}/>
+            <div className="bg-bogy">
+                <div className="App">
+                    <BrowserRouter>
+                        <Routes>
+                            <Route index element={<Home/>}/>
 
-                    <Route path="/home" element={<Home/>}/>
-                    <Route path="/martial" element={<MartialArtsStoryInJapon/>}/>
-                    <Route path="/story" element={<JudoStoryInFrance/>}/>
-                    <Route path="/technique" element={<Technique/>}/>
+                            <Route path="/home" element={<Home/>}/>
+                            <Route path="/martial" element={<MartialArtsStoryInJapon/>}/>
+                            <Route path="/story" element={<JudoStoryInFrance/>}/>
+                            <Route path="/technique" element={<Technique/>}/>
 
-                    <Route path="*" element={<NotFound/>}/>
+                            <Route path="*" element={<NotFound/>}/>
 
-                </Routes>
+                        </Routes>
 
-            </BrowserRouter>
-
-        </div>
-
+                    </BrowserRouter>
+                </div>
+            </div>
     )
 }
 
